@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>BMW X5</h1>
+<table style ="width: 80%" >
+	<tr>
+		<td><img src="C:\Users\45\Desktop\Sublime Text 3\test\images\bmw5.jpeg" height="200" width="300" align="left">
+		 <a href = "C:\Users\45\Desktop\Sublime Text 3\test\image.html" target = "_blank"><h3>More images</h3></a></td>
+		
+		<td> <p>“ретье поколение BMW X5 снова выходит за рамки установленных им стандартов: этот спортивно-активный автомобиль (SAV) всегда привносит элемент эксклюзивности там, где предъ€вл€ютс€ особые требовани€. Ётому способствует множество технологий, позвол€ющих подн€ть экономичность, динамику, комфорт и универсальность на совершенно новый уровень Ц даже в услови€х бездорожь€.</p></td> 
+	</tr>
+    </table>
+<h1>Porshe Cayonne </h1>
+<table style ="width: 80%" >
+	<tr>
+		
+			<td><img src="C:\Users\45\Desktop\Sublime Text 3\test\images\porshe3.jpg" height="200" width="300" align="left">
+		 	
+		 	<a href = "C:\Users\45\Desktop\Sublime Text 3\test\image.html" target = "_blank"><h3>More images</h3></a></td>
+		
+		<td> <p>Porsche Cayenne Ч п€тиместный среднеразмерный спортивный кроссовер производства немецкой автомобилестроительной компании Porsche. јвтомобиль создан при активном участии концерна Volkswagen. ѕроизводство первого поколени€ (Type 955/9PA) началось в 2002 году, в —еверной јмерике реализаци€ началась с 2003 года. Ќазвание модели, Cayenne, образовано по имени столицы ‘ранцузской √вианы.</p></td>          
+
+
+      </tr>
+	</body>
+	
+
+
+</html>
