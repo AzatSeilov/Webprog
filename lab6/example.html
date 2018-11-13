@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		#b{
+			z-index: 1;
+		}
+	</style>
+	<title>Simple animation</title>
+</head>
+<body>
+	<p>
+		<img src="C:\Users\45\Desktop\WEB\web-tasks\lab1\images\bmw6.jpg" style="position: absolute;" width="10%" height="10%">
+        <img src="C:\Users\45\Desktop\WEB\web-tasks\lab1\images\bmw5.jpeg" id="a"  style="position: absolute;" width="30%" height="30%">
+	</p>
+<script >
+	var car1=document.querySelector("img");
+	var car2=document.querySelector("#a");
+    
+	var angle=0,lasttime=null;
+	function animate(time){
+		if (lasttime!=null)
+			angle+=(time-lasttime)*0.002;
+		lasttime=time;
+
+    car1.style.top=(Math.sin(angle)*20+125)+"px";
+    car1.style.left=(Math.cos(angle)*250+300)+"px";
+
+    car2.style.top=(Math.sin(angle)*20+200)+"px";
+    car2.style.right=(Math.cos(angle)*200+300)+"px";    
+    requestAnimationFrame(animate);	
+	}
+requestAnimationFrame(animate);
+ 
+</script>
+</body>
+</html>
